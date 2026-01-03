@@ -1,0 +1,4 @@
+700
+The maximum integer value is: 2147483647
+The maximum long integer value is: 2147483647
+The maximum long long integer value is: 9223372036854775807
