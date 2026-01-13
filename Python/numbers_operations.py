@@ -1,0 +1,7 @@
+print(10 + 5)   # 15 (Add)
+print(10 - 5)   # 5 (Subtract)
+print(10 * 5)   # 50 (Multiply)
+print(10 / 3)   # 3.333 (Division)
+print(10 // 3)  # 3 (Floor Division)
+print(10 % 3)   # 1 (Modulus/Remainder)
+print(2 ** 3)   # 8 (Power)
