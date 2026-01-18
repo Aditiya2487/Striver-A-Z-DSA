@@ -50,5 +50,16 @@
             cout<<endl;
             v1.clear(); // Clear the vector
             cout << "Size after clearing: " << v1.size() << endl;
+
+            vector<int>vec(5);
+            for(auto i:vec){
+                cout<<i<<" "; // Default initialized elements
+            }
+            cout<<endl;
+             vector<int>vec2(5,10); // Vector of size 5 with all elements as 10
+            for(auto i:vec2){
+                cout<<i<<" ";
+            }
+            cout<<endl;
             return 0;
         }
