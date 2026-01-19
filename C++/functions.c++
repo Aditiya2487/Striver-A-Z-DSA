@@ -24,4 +24,13 @@ int main()
     {
         cout << str << endl;
     } while (next_permutation(str.begin(), str.end()));
+    cout << *(max_element)(arr, arr + 5); // Returns the max_element
+    reverse(arr, arr + 5);
+    cout << "After reversing the array :" << endl;
+    for (auto &x : arr)
+    {
+        cout << (x) << " ";
+    }
+    cout << endl;
+    cout << pow(2, 3);
 }
